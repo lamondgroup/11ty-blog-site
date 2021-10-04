@@ -18,3 +18,9 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - file: 
+    name: "homepage"
+    label: "homepage"
+    file: "_data/home.json"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
